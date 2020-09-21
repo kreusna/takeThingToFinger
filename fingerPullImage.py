@@ -50,7 +50,7 @@ def getContours(img):
                         
             newTopdata = sorted(topArea, key=lambda x: x[1] , reverse=True) 
             getDistanceFromTopFinger = calculateDistance(newTopdata)
-            if (getDistanceFromTopFinger[0] < 45):
+            if (getDistanceFromTopFinger[0] < 50):
                 touch = 1
 
     global smallImageoldx
